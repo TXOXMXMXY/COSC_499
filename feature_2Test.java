@@ -3,11 +3,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class feature_1Test {
-String result ="29282726242315";
-feature_1 A= new feature_1();
+class feature_2Test {
+feature_2 A = new feature_2();
+
+String test = "ABCDEDEFDEFGHFFGGHIH";
+
 	@Test
-	public void test() {
-		assertEquals(result,A.print());
+	void test() {
+		assertEquals(test,A.display());
 	}
+
 }
