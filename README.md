@@ -19,11 +19,10 @@ The app provides a list of links to external resources and websites curated by H
 ## Getting Started
 
 ### Prerquisites
-* npm
+* npm or yarn
 ```sh
 npm install
 ```
-* Yarn
 ```sh
 yarn install
 ```
