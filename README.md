@@ -1,6 +1,9 @@
 # Hope-baddate-app
-## Purpose
+## About the project
 The HOPE Bad Date app is a mobile app for android and iOS devices commissioned by HOPE Outreach to promote the safety of sex workers and other BC residents living in vulnerable situations like homeless, addiction, and exploitation when they are out on the streets.
+### Build with
+* [React-native](https://reactnative.dev)
+* [Node.js](https://nodejs.org/en/)
 ## Description of Feature(For Public User)
 ### Reporting Baddate:
 Allowing users to submit reports of cases of "bad dates"
@@ -41,6 +44,13 @@ npm run web
 ```
 ### Run Server locally (Back End):
 - cd `nodeserver`
+- npm or yarn install
+```sh
+npm install
+```
+```sh
+yarn install
+```
 - Start Server
 ```sh
 node index
